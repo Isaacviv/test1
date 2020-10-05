@@ -1,8 +1,4 @@
-﻿using Helloworld;
-using System;
-using System.Collections.Generic;
-using System.Text;
-
+﻿
 namespace Prueba
 {
     public class Ejercicios
@@ -36,5 +32,12 @@ namespace Prueba
                     i++;
             }
         }
+
+        // Ejercicio: hacer un programa que imprima si un numero es primo o no
+        public static void Ejercicio3()
+        {
+            
+        }
     }
+
 }
