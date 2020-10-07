@@ -50,6 +50,31 @@ namespace Prueba
                     i++;
             }
         }
+        public static void Ejercicio4()
+        {
+            for (int i = 0; i < 90; i++)
+            {
+                if (Misc.IsEven(i))
+                    System.Console.WriteLine(-i);
+                else
+                    System.Console.WriteLine(i);
+            }
+        }
+        public static void Ejercicio5()
+        {
+            long number1 = 0;
+            long number2 = 1;
+            for(int i = 0; i < 90; i++)
+            {
+                System.Console.WriteLine(number1 + number2);
+                number2 = number2 + number1;
+                number1 = number2 - number1;
+
+            }
+
+        }
+
+
     }
 
 }
