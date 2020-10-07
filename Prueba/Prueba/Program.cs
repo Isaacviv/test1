@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Helloworld;
+using System;
 
 namespace Prueba
 {
@@ -9,7 +10,7 @@ namespace Prueba
 
             Ejercicios.Ejercicio1();
             Ejercicios.Ejercicio2(100);
-
+            Ejercicios.Ejercicio3();
         }
     }
 }

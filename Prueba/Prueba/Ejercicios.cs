@@ -1,4 +1,6 @@
 ﻿
+using Helloworld;
+
 namespace Prueba
 {
     public class Ejercicios
@@ -36,7 +38,17 @@ namespace Prueba
         // Ejercicio: hacer un programa que imprima si un numero es primo o no
         public static void Ejercicio3()
         {
-            
+            int i = 1;
+            while (i <= 100)
+            {
+                if (Misc.Isprime(i))
+                {
+                    System.Console.WriteLine(i);
+                    i++;
+                }
+                else
+                    i++;
+            }
         }
     }
 
